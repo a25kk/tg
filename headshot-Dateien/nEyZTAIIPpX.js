@@ -1,0 +1,5 @@
+/*!CK:1729813361!*//*1455046297,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["XOgYL"]); }
+
+__d('ChatSidebarSheetChatShutdownMsg.react',['ChannelConstants','ReactComponentWithPureRenderMixin','React','fbt'],function a(b,c,d,e,f,g,h,i,j,k){'use strict';if(c.__markCompiled)c.__markCompiled();var l=j.PropTypes,m=j.createClass({displayName:'ChatSidebarSheetChatShutdownMsg',mixins:[i],propTypes:{hint:l.string},render:function(){var n=this.props.hint;switch(n){case h.HINT_AUTH:return (j.createElement('div',null,k._("Deine Sitzung ist abgelaufen. Bitte melde dich an.")));case h.HINT_MAINT:return (j.createElement('div',null,k._("Facebook-{Chat} ist derzeit aufgrund von Wartungsarbeiten nicht verf\u00fcgbar.",[k.param('Chat',k._("Chat"))])));case h.HINT_CONN:return (j.createElement('div',null,k._("Facebook-{Chat} ist derzeit nicht verf\u00fcgbar.",[k.param('Chat',k._("Chat"))])));default:return (j.createElement('div',null,k._("Facebook-{Chat} ist derzeit nicht verf\u00fcgbar.",[k.param('Chat',k._("Chat"))])));}}});f.exports=m;},null);
