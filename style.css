@@ -27,6 +27,15 @@ a {
 	color: #cf8a05;
 }
 
+ul {
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	margin-top: -20px;
+	font-size: 0.8em;
+	color: #808080;	
+}
+
 .img-fluid {
     display: block;
     max-width: 100%;
